@@ -2,8 +2,8 @@
 This jQuery plugin makes polygon clipping for your HTML elements easy. It handles crossbrowser compatibility. And it is responsive!
 
 # Demo
-* [Responsive Image] http://markyogore.github.io/jQuery.polyMask/demo-1.html
-* [Responsive Dev Element] http://markyogore.github.io/jQuery.polyMask/demo-2.html
+* [Responsive Image] (http://markyogore.github.io/jQuery.polyMask/demo-1.html)
+* [Responsive Dev Element] (http://markyogore.github.io/jQuery.polyMask/demo-2.html)
 * More demos to come
 
 ## How To Use
@@ -42,4 +42,4 @@ Using the plain old Cartesian Coordinates System where X and Y form a point and 
 This plugin is developed by @markyogore. Any contributors are welcome
 
 ### Support or Contact
-Having trouble with PolyMask? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with PolyMask? Check out my [Repo](https://github.com/markyogore/jQuery.polyMask) or send me a tweet [@MakYogore](https://twitter.com/MakYogore) and I’ll help you sort it out.
