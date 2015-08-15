@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>polyMask.js by markyogore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <style>
+        #wrapper{
+            max-height: 360px;
+            max-width: 360px;
+            width: 100%;
+            height: auto;
+            margin:  auto;
+            overflow: visible;
+        }
+        .masked,.unmasked{
+            position: absolute;
+            max-height: 360px;
+            max-width: 360px;
+            width: 100%;
+            height: auto;
+
+            padding: 20px;
+        }
+        .unmasked{
+            color: #B2B2B2;
+            z-index: 1;
+            background-color: #999966;
+        }
+        .masked{
+            background-color: #3D5C5C;
+            z-index: 2;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.polymask.js"></script>
+  </head>
+  <body>
+    <section class="main-content">
+        <h2>Responsive Div</h2>
+        <div id="wrapper">
+            <div class="masked" data-mask-path="50% 0%, 100% 50%, 50% 100%, 0% 50%" >
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper arcu quis nibh pulvinar, sit amet sagittis enim ultricies. Integer tempus eget sem ac viverra. Sed elementum, elit vitae fringilla vehicula, leo nisl dapibus ipsum, eu mollis elit leo id risus. Duis euismod efficitur vulputate. Pellentesque nibh dolor, ornare a molestie nec, auctor vel lacus. Nullam euismod risus eget elit sodales, eget gravida orci mattis. Maecenas accumsan molestie viverra. Suspendisse molestie elit laoreet arcu lobortis iaculis. Integer dignissim ut mauris quis commodo. Etiam tincidunt in est non gravida. Fusce ut ullamcorper ligula, quis feugiat massa. Morbi iaculis libero et egestas viverra. Sed id commodo nulla, vel cursus nunc. Nunc vitae nisl justo. </p>
+            </div>
+            <div class="unmasked">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper arcu quis nibh pulvinar, sit amet sagittis enim ultricies. Integer tempus eget sem ac viverra. Sed elementum, elit vitae fringilla vehicula, leo nisl dapibus ipsum, eu mollis elit leo id risus. Duis euismod efficitur vulputate. Pellentesque nibh dolor, ornare a molestie nec, auctor vel lacus. Nullam euismod risus eget elit sodales, eget gravida orci mattis. Maecenas accumsan molestie viverra. Suspendisse molestie elit laoreet arcu lobortis iaculis. Integer dignissim ut mauris quis commodo. Etiam tincidunt in est non gravida. Fusce ut ullamcorper ligula, quis feugiat massa. Morbi iaculis libero et egestas viverra. Sed id commodo nulla, vel cursus nunc. Nunc vitae nisl justo. </p>
+            </div>
+        </div>
+    </section>
+    <script>
+        $('.masked').polyMask();
+    </script>
+  </body>
+</html>
