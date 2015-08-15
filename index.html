@@ -27,20 +27,22 @@
 <h2>
 <a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How To Use</h2>
 
-<p>Using the plain old Cartesian Coordinates System where X and Y form a point and then at least 3 points to form a polygon. Supply your element with coordinates (path) using the data-mask-path attribute in X Y, X Y, X Y,.... format. You can use "%" for responsive masking and "px" for absolute masking.</p>
+<p>Using the plain old Cartesian Coordinates System where X and Y form a point and then at least 3 points to form a polygon. Supply your element with coordinates (path) using the <code>data-mask-path</code> attribute in X Y, X Y, X Y,.... format. You can use <code>%</code> for responsive masking and <code>px</code> for absolute masking.</p>
 
 <h3>
 <a id="add-the-plugin-to-the-head-or-your-document" class="anchor" href="#add-the-plugin-to-the-head-or-your-document" aria-hidden="true"><span class="octicon octicon-link"></span></a>Add the plugin to the head or your document</h3>
 
-<p><code>&lt;script src="https://code.jquery.com/jquery-1.11.3.min.js"&gt;&lt;/script&gt;</code>
-<code>&lt;script src="jquery.polymask.js&gt;&lt;/script&gt;</code></p>
+<pre><code>    &lt;script src="https://code.jquery.com/jquery-1.11.3.min.js"&gt;&lt;/script&gt;
+    &lt;script src="jquery.polymask.js&gt;&lt;/script&gt;
+</code></pre>
 
 <h3>
 <a id="initialize-polymask-with-your-elements-selector" class="anchor" href="#initialize-polymask-with-your-elements-selector" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initialize polyMask with your element's selector</h3>
 
-<p><code>&lt;script&gt;</code>
-<code>$('.masked').polyMask();
-</code>    `</p>
+<pre><code>    &lt;script&gt;
+        $('.masked').polyMask();
+    &lt;/script&gt;
+</code></pre>
 
 <h3>
 <a id="responsive-masking" class="anchor" href="#responsive-masking" aria-hidden="true"><span class="octicon octicon-link"></span></a>Responsive Masking</h3>
@@ -50,11 +52,12 @@
 <h3>
 <a id="using-absolute-points" class="anchor" href="#using-absolute-points" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using Absolute Points</h3>
 
-<p><code>&lt;script&gt;</code>
-<code>$('.masked-absolute').polyMask({</code>
-<code>responsive: false</code>
-<code>});</code>
-<code>&lt;/script&gt;</code></p>
+<pre><code>    &lt;script&gt;
+        $('.masked-absolute').polyMask({
+                responsive: false
+            });
+    &lt;/script&gt;
+</code></pre>
 
 <p><code>&lt;img src="http://lorempixel.com/g/800/800/" class="masked-absolute" data-mask-path="400px 0px, 800px 400px, 400px 800px, 0px 400px" height="800" width="800"/&gt;</code></p>
 
