@@ -19,27 +19,44 @@
     </section>
 
     <section class="main-content">
-      <h3>
-<a id="welcome-to-jquery-polymask-plugin" class="anchor" href="#welcome-to-jquery-polymask-plugin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to jQuery polyMask Plugin</h3>
+      <h1>
+<a id="welcome-to-jquery-polymask-plugin" class="anchor" href="#welcome-to-jquery-polymask-plugin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to jQuery polyMask Plugin</h1>
 
 <p>This jQuery plugin makes polygon clipping for your HTML elements easy. It handles crossbrowser compatibility. And it is responsive!</p>
 
+<h2>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How To Use</h2>
+
+<p>Using the plain old Cartesian Coordinates System where X and Y form a point and then at least 3 points to form a polygon. Supply your element with coordinates (path) using the data-mask-path attribute in X Y, X Y, X Y,.... format. You can use "%" for responsive masking and "px" for absolute masking.</p>
+
 <h3>
-<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h3>
+<a id="add-the-plugin-to-the-head-or-your-document" class="anchor" href="#add-the-plugin-to-the-head-or-your-document" aria-hidden="true"><span class="octicon octicon-link"></span></a>Add the plugin to the head or your document</h3>
 
-<p>Click here for demo</p>
+<p><code>&lt;script src="https://code.jquery.com/jquery-1.11.3.min.js"&gt;&lt;/script&gt;</code>
+<code>&lt;script src="jquery.polymask.js&gt;&lt;/script&gt;</code></p>
 
 <h3>
-<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How To Use</h3>
+<a id="initialize-polymask-with-your-elements-selector" class="anchor" href="#initialize-polymask-with-your-elements-selector" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initialize polyMask with your element's selector</h3>
 
-<p>Add the plugin to the head or your document
-<code>&lt;script src="https://code.jquery.com/jquery-1.11.3.min.js"&gt;&lt;/script&gt;
-    &lt;script src="jquery.polymask.js&gt;&lt;/script&gt;</code></p>
+<p><code>&lt;script&gt;</code>
+<code>$('.masked').polyMask();
+</code>    `</p>
 
-<p>*Responsive Clipping
-<code>&lt;div class="masked" data-mask-path="50% 0%, 100% 50%, 50% 100%, 0% 50%"&gt;
-        &lt;img src="http://lorempixel.com/g/800/800/" /&gt;
-    &lt;/div&gt;</code></p>
+<h3>
+<a id="responsive-masking" class="anchor" href="#responsive-masking" aria-hidden="true"><span class="octicon octicon-link"></span></a>Responsive Masking</h3>
+
+<p><code>&lt;img src="http://lorempixel.com/g/800/800/" class="masked" data-mask-path="50% 0%, 100% 50%, 50% 100%, 0% 50%" /&gt;</code></p>
+
+<h3>
+<a id="using-absolute-points" class="anchor" href="#using-absolute-points" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using Absolute Points</h3>
+
+<p><code>&lt;script&gt;</code>
+<code>$('.masked-absolute').polyMask({</code>
+<code>responsive: false</code>
+<code>});</code>
+<code>&lt;/script&gt;</code></p>
+
+<p><code>&lt;img src="http://lorempixel.com/g/800/800/" class="masked-absolute" data-mask-path="400px 0px, 800px 400px, 400px 800px, 0px 400px" height="800" width="800"/&gt;</code></p>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
