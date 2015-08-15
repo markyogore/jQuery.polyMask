@@ -3,7 +3,7 @@ This jQuery plugin makes polygon clipping for your HTML elements easy. It handle
 
 # Demo
 * [Responsive Image] (http://markyogore.github.io/polyMask.js/demo-1.html)
-* [Responsive Dev Element] (http://markyogore.github.io/polyMask.js/demo-2.html)
+* [Responsive Div Element] (http://markyogore.github.io/polyMask.js/demo-2.html)
 * More demos to come
 
 ## How To Use
