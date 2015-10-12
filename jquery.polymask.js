@@ -1,6 +1,7 @@
 /*  PolyMask.js - Cross Browser Responsive HTML Element Masking
-* Author: Mark Yogore
-* Version: 1.0
+*   Author: Mark Yogore
+*   URL: https://github.com/markyogore/polyMask.js
+*   Version: 1.0
 */
 ;(function ( $ ) {
 	$.fn.polyMask = function( options ) {
