@@ -42,4 +42,4 @@ Using the plain old Cartesian Coordinates System where X and Y form a point and 
 This plugin is developed by @markyogore. Any contributors are welcome
 
 ### Support or Contact
-Having trouble with PolyMask? Check out my [Repo](https://github.com/markyogore/jQuery.polyMask) or send me a tweet [@codermak](https://twitter.com/MakYogore) and I’ll help you sort it out.
+Having trouble with PolyMask? Check out my [Repo](https://github.com/markyogore/jQuery.polyMask) or send me a tweet [@codermak](https://twitter.com/codermak) and I’ll help you sort it out.
